@@ -43,6 +43,6 @@ def ingest_data():
       txt = row.split()
       txt = ' '.join(txt)
       group[3] += ' ' + txt
-  df = pd.DataFrame (groups, columns = ['clusters', 'cantidad_de_palabras_clave', 'porcentaje_de_palabras_clave', 'principales_palabras_clave'])
+  df = pd.DataFrame (groups, columns = ['cluster', 'cantidad_de_palabras_clave', 'porcentaje_de_palabras_clave', 'principales_palabras_clave'])
 
   return df
