@@ -21,7 +21,7 @@ def ingest_data():
   groups = []
 
   
-  groups = [0, 0, 0, '']
+  group = [0, 0, 0, '']
 
   for row in lines:
 
