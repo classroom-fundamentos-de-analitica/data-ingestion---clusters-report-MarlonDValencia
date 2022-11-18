@@ -13,9 +13,5 @@ import pandas as pd
 
 
 def ingest_data():
-
-    #
-    # Inserte su código aquí
-    #
-
+    df = pd.read_csv("solicitudes_credito.csv", sep=";")
     return df
